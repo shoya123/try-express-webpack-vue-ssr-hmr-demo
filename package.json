@@ -1,0 +1,29 @@
+{
+  "name": "express-webpack-vue-ssr-hmr-demo",
+  "description": "",
+  "author": "shoya mori",
+  "private": true,
+  "scripts": {
+    "dev": "node server"
+  },
+  "engines": {
+    "node": ">=7.0",
+    "npm": ">=4.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "vue": "^2.5.22",
+    "vue-server-renderer": "^2.5.22"
+  },
+  "devDependencies": {
+    "chokidar": "^1.7.0",
+    "css-loader": "^0.28.7",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "vue-loader": "^15.3.0",
+    "vue-template-compiler": "^2.5.22",
+    "webpack": "^3.8.1",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.20.0",
+    "webpack-merge": "^4.2.1"
+  }
+}
